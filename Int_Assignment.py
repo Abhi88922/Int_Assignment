@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # Q1. Declare an int value and store it in a variable
 # Check the type and print the id of the same.
 
