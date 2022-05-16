@@ -1,9 +1,6 @@
 # Q1. Declare an int value and store it in a variable
 # Check the type and print the id of the same.
 
-# In[2]:
-
-
 # Solution 1
 a = 10
 print(a , type(a) , id(a))
@@ -12,9 +9,6 @@ print(a , type(a) , id(a))
 # Q2. Take one int value between 0 - 256.
 # Assign it to two different variables.
 # Check the id of both the variables. It should come the same. Check why?
-
-# In[3]:
-
 
 # Solution 2
 a = 255
@@ -26,9 +20,6 @@ print(id(b)) # id of a and b will be same because 0 - 256 is object reusability 
 # Q3. Take one int value either less than -5 or greater than 256.
 # Assign it to two different variables.
 # Check the id of both the variables. It should come different.Check why?
-
-# In[6]:
-
 
 # Solution 3
 a = -6
@@ -48,9 +39,6 @@ print(id(b)) # id of a and b will be different because 0 - 256 only is object re
 # Find the remainder after dividing first number with second number
 # Find the quotient after dividing first number with second number
 # Find the result of the first num to the power of the second number.
-
-# In[9]:
-
 
 # Solution 4
 a = 8
@@ -75,9 +63,6 @@ print(a**b)
 # Less than or equal to, '<='
 # Observe their output(return type should be boolean)
 
-# In[10]:
-
-
 # Solution 5
 a = 10
 b = 20
@@ -92,9 +77,6 @@ print(a<=b)
 # Store them in two different variables.
 # Equate them using equality operators (==, !=)
 # Observe the output(return type should be boolean)
-
-# In[11]:
-
 
 # Solution 6
 a = 10
@@ -127,9 +109,6 @@ print(a!=b)
 # print ( not 0 )
 # #----------------------------------------->Output is True
 
-# In[12]:
-
-
 # Solution 7
 print ( 10 and 20 )
 print ( 0 and 20 )
@@ -159,9 +138,6 @@ print ( not 0 )
 # -------> Output is 2
 # Cross check the output manually
 
-# In[14]:
-
-
 # Slution 8
 print(10&20)
 print(10|20)
@@ -182,9 +158,6 @@ print(10>>2)
 # print(a is b) #True or False?
 # print(a is not b) #True or False?
 
-# In[18]:
-
-
 # Solution 9
 a = 10
 b = 10
@@ -200,9 +173,6 @@ print(a is not b)
 # before running the program.
 # print ( 10 +( 10 * 32 )// 2 ** 5 & 20 +(~( -10 ))<< 2 )
 
-# In[20]:
-
-
 # Solution 10
 print( 10 +( 10 * 32 )// 2 ** 5 & 20 +(~( -10 ))<< 2 )
 
@@ -215,9 +185,6 @@ print( 10 +( 10 * 32 )// 2 ** 5 & 20 +(~( -10 ))<< 2 )
 # print ( 2 in { 1 , 2 , 3 })
 # print ( 3 in { 1 : 100 , 2 : 200 , 3 : 300 })
 # print ( 10 in range ( 20 ))
-
-# In[21]:
-
 
 # Solution 11
 print ( '2' in 'Python2.7.8' )
@@ -233,9 +200,6 @@ print ( 10 in range ( 20 ))
 # in three different variables.
 # Convert 9876 to its binary, octal and hexadecimal equivalent and print
 # their corresponding value.
-
-# In[26]:
-
 
 # Solution 12
 a = 100
@@ -269,9 +233,6 @@ print(hex(d))
 # print ( oct ( 0 o7436))
 # print ( hex ( 0 b1010000))
 # print ( hex ( 0x fade ))
-
-# In[29]:
-
 
 # Solution 13
 a = 0b1010000
